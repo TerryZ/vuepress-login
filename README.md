@@ -15,6 +15,10 @@ Live examples in below sites
 
 Enter any username and password for experience
 
+## Source code
+
+Please visit [https://github.com/TerryZ/vuepress-login](https://github.com/TerryZ/vuepress-login)
+
 ## Install plugin
 
 Install `v-dialogs` plugin for Modal dialog
