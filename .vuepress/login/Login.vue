@@ -34,7 +34,7 @@ export default {
           name: this.username,
           time: new Date().getTime()
         })
-        window.localStorage.setItem(STORAGE_KEY, window.btoa(data))
+        window.localStorage.setItem(STORAGE_KEY, data)
         this.$emit('close', true)
       } else {
         this.$dlg.alert('Please complete the content', {
