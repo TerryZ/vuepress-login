@@ -1,0 +1,52 @@
+shadow()
+  box-shadow 0 .125rem 1rem rgba(0,0,0,.1) !important
+
+border()
+  border 1px solid $borderColor
+  padding 5px
+  margin-top 1rem
+  border-radius 5px
+
+h1
+  font-size 2.5rem
+
+h2
+  font-size 1.9rem
+
+h3
+  font-size 1.5rem
+
+h4
+  font-size 1.2rem
+
+.text-center
+  text-align center
+.nowrap
+  white-space nowrap
+
+.img
+  height 150px
+  width 150px
+
+.img-small
+  height $qcode-width
+  width $qcode-width
+  // object-fit cover
+
+.border
+  border()
+
+.shadow
+  shadow()
+
+.border-shadow
+  border()
+  transition box-shadow .3s ease
+  &:hover
+    shadow()
+
+.danger
+  color red
+
+.contains-task-list LI
+  list-style-type none
