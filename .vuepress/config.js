@@ -2,6 +2,7 @@
 const sidebar = require('./sidebar')
 
 module.exports = {
+  base: '/vuepress-login/',
   title: 'VuePress with login',
   description: 'VuePress with login',
   themeConfig:{
