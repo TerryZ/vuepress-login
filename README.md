@@ -114,7 +114,7 @@ export default {
 </style>
 ```
 
-## Configuration VuePress
+## VuePress Configuration
 
 Add `enhanceApp.js` file in `/.vuepress`
 
